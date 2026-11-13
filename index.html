@@ -500,7 +500,7 @@
                 class="form-input"
                 type="email"
                 name="email"
-                placeholder="Email"
+                placeholder="E-mail"
               />
             </label>
             <button class="button-subscribe" type="submit">
@@ -513,7 +513,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" id="modal">
+    <div class="backdrop is-open" id="modal">
       <div class="modal">
         <button class="modal-close" type="button" aria-label="Закрити вікно">
           <svg class="modal-close-icon" width="8" height="8" aria-hidden="true">
@@ -522,9 +522,10 @@
         </button>
         <form class="form-modal">
           <fieldset class="modal-fieldset">
-            <legend class="modal-legend">
+            <p class="modal-legend">
               Leave your contacts and we will call you back
-            </legend>
+            </p>
+
             <div class="modal-field">
               <label for="username" class="modal-label"> Name</label>
               <div class="modal-input-wrapper">
