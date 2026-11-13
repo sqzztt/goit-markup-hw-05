@@ -162,12 +162,12 @@
   outline-color: #4d5ae5;
 }
 .modal-submit {
-  border: none;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
@@ -192,7 +192,7 @@
   position: absolute;
   top: 24px;
   right: 24px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 24px;
   width: 24px;
   height: 24px;
